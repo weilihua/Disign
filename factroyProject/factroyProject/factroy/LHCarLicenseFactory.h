@@ -10,11 +10,6 @@
 
 @class LHCarLicense;
 
-typedef enum : NSUInteger {
-    ELicenseType_Blue,
-    ELicenseType_Yellow
-} ELicenseType;
-
 @interface LHCarLicenseFactory : NSObject
 
 /**
