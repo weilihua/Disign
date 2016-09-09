@@ -1,6 +1,6 @@
 //
 //  LHAVPlayer.m
-//  StrategyProject
+//  TemplateProject
 //
 //  Created by weilihua on 2016/9/9.
 //  Copyright © 2016年 com.xiankancom.xiankan. All rights reserved.
@@ -11,7 +11,7 @@
 
 @interface LHAVPlayer ()
 {
-    id<AVPlayerProtocol> player;// AVPlayer播放器自身的协议
+    id<AVPlayerProtocol> player;
 }
 @end
 
@@ -21,23 +21,23 @@
 {
     self = [super init];
     if (self) {
-        player = [[AVPlayer alloc] init];// 初始化AVPlayer播放器对象
+        player = [[AVPlayer alloc] init];
     }
     return self;
 }
 
-// 播放
-- (NSString *)lh_play{
+//Player开启视频
+- (NSString *)play{
     return [player a_play];
 }
 
-// 暂停
-- (NSString *)lh_pause{
+//Player暂停视频
+- (NSString *)pause{
     return [player a_pause];
 }
 
-// 停止
-- (NSString *)lh_stop{
+//Player停止播放
+- (NSString *)stop{
     return [player a_stop];
 }
 
