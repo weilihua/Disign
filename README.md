@@ -11,3 +11,5 @@
 4.AdapterProject:适配器模式Demo
 
 5.StrategyProject:策略模式Demo
+
+6.TemplateProject:模版模式Demo
