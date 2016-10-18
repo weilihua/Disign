@@ -13,3 +13,5 @@
 5.StrategyProject:策略模式Demo
 
 6.TemplateProject:模版模式Demo
+
+7.BuilderProject:建造者模式Demo
